@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VKVKVKVKVKVK/portfolio-website.git"
+  },
+  "author": "V.K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VKVKVKVKVKVK/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/VKVKVKVKVKVK/portfolio-website#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
