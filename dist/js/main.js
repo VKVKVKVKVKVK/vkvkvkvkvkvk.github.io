@@ -11,9 +11,7 @@ let showMenu = false;
 menuBtn.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
-  console.log("test");
   if (!showMenu) {
-    console.log("false");
     menuBtn.classList.add("close");
     menu.classList.add("show");
     menuNav.classList.add("show");
@@ -23,7 +21,6 @@ function toggleMenu() {
     //Switch menu state
     showMenu = true;
   } else {
-    console.log("true");
     menuBtn.classList.remove("close");
     menu.classList.remove("show");
     menuNav.classList.remove("show");
