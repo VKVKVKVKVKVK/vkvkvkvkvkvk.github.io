@@ -4,19 +4,21 @@
   "description": "Responsive Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VKVKVKVKVKVK/portfolio-website.git"
+    "url": "git+https://github.com/VKVKVKVKVKVK/portfolio-personal-website.git"
   },
   "author": "V.K",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VKVKVKVKVKVK/portfolio-website/issues"
+    "url": "https://github.com/VKVKVKVKVKVK/portfolio-personal-website"
   },
-  "homepage": "https://github.com/VKVKVKVKVKVK/portfolio-website#readme",
+  "homepage": "https://github.com/VKVKVKVKVKVK/portfolio-personal-website",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
