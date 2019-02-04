@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VKVKVKVKVKVK/portfolio-personal-website.git"
+    "url": "git+https://vkvkvkvkvkvk.github.io/"
   },
   "author": "V.K",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VKVKVKVKVKVK/portfolio-personal-website"
+    "url": "https://vkvkvkvkvkvk.github.io/"
   },
-  "homepage": "https://github.com/VKVKVKVKVKVK/portfolio-personal-website",
+  "homepage": "https://vkvkvkvkvkvk.github.io/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
